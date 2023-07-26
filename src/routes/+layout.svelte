@@ -93,7 +93,7 @@ import {
   <Grid>
     <Row>
       <Column>
-        <h1 style="font-size:5vw; font-family:'Special Elite'">{path.toUpperCase()}</h1>
+        <h1 style="font-size:10vw; font-family:'Special Elite'">{path.toUpperCase()}</h1>
 <button on:click={showConfetti}>¡Confetti!</button>
 <Confetti />
     </Column>
