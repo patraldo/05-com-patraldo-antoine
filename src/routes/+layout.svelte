@@ -1,4 +1,10 @@
 <script>
+import { page } from '$app/stores';
+    let path;
+
+    $: path = $page.url.pathname;
+
+
 import { Confetti } from "svelte-confetti"
 import { tick } from "svelte";
 
@@ -80,12 +86,15 @@ import {
   </SideNavItems>
 </SideNav>
 
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&family=Inspiration&family=Special+Elite&display=swap');
+
+
 <Content>
   <Grid>
     <Row>
       <Column>
-        <h1>¡Fiesta!</h1>
-<button on:click={showConfetti}>Show some confetti</button>
+        <h1 style="font-size:5vw; font-family:'Special Elite'">{path.toUpperCase()}</h1>
+<button on:click={showConfetti}>¡Confetti!</button>
 <Confetti />
     </Column>
     </Row>
