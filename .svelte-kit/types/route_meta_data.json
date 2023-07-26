@@ -1,0 +1,21 @@
+{
+	"/": [],
+	"/animaciones": [],
+	"/blog": [
+		"src/routes/blog/+layout.server.js",
+		"src/routes/blog/+layout.server.js"
+	],
+	"/blog/[slug]": [
+		"src/routes/blog/[slug]/+page.server.js",
+		"src/routes/blog/+layout.server.js",
+		"src/routes/blog/+layout.server.js"
+	],
+	"/contacto": [],
+	"/dibujos": [],
+	"/exhibiciones": [],
+	"/gridGallery": [],
+	"/proyecciones": [],
+	"/talleres": [],
+	"/ubicacion": [],
+	"/videos": []
+}
