@@ -1,11 +1,4 @@
 <script>
-import '@material/web/ripple/ripple.js';
-    import { page } from '$app/stores';
-    let path;
-
-    $: path = $page.url.pathname;
-
-
 import { Confetti } from "svelte-confetti"
 import { tick } from "svelte";
 
@@ -25,11 +18,17 @@ active = true;
 
   let theme = "g80";
 
-  import {
+import {
     Header,
     HeaderNav,
     HeaderNavItem,
     HeaderNavMenu,
+    SideNav,
+    SideNavItems,
+    SideNavMenu,
+    SideNavMenuItem,
+    SideNavLink,
+    SideNavDivider,
     SkipToContent,
     Content,
     Grid,
@@ -38,6 +37,7 @@ active = true;
   } from "carbon-components-svelte";
 
   let isSideNavOpen = false;
+
 </script>
 
 <Header company="Antoine Patraldo" platformName="La Musa que Mas Aplauda" bind:isSideNavOpen>
@@ -55,10 +55,30 @@ active = true;
       <HeaderNavItem href="/proyecciones" data-sveltekit-preload-data text="Proyecciones" />
       <HeaderNavItem href="/talleres" data-sveltekit-preload-data text="Talleres" />
       <HeaderNavItem href="/contacto" data-sveltekit-preload-data text="Contacto" />
+      <HeaderNavItem href="/ubicacion" data-sveltekit-preload-data text="Ubicacion" />
 
     </HeaderNavMenu>
   </HeaderNav>
 </Header>
+
+<SideNav bind:isOpen={isSideNavOpen}>
+  <SideNavItems>
+    <SideNavLink text="Inicio" />
+    <SideNavMenu text="Menu">
+      <SideNavMenuItem href="/dibujos" data-sveltekit-preload-data text="Dibujos" />
+      <SideNavMenuItem href="/exhibiciones" text="Exhibiciones" />
+      <SideNavMenuItem href="/animaciones" data-sveltekit-preload-data text="Animaciones" />
+      <SideNavMenuItem href="/videos" data-sveltekit-preload-data text="Videos" />
+      <SideNavMenuItem href="/blog" text="Blog" />
+      <SideNavMenuItem href="/proyecciones" data-sveltekit-preload-data text="Proyecciones" />
+      <SideNavMenuItem href="/talleres" data-sveltekit-preload-data text="Talleres" />
+      <SideNavMenuItem href="/contacto" data-sveltekit-preload-data text="Contacto" />
+      <SideNavMenuItem href="/ubicacion" data-sveltekit-preload-data text="Ubicacion" />
+</SideNavMenu>
+    <SideNavDivider />
+    <SideNavLink text="Link 4" />
+  </SideNavItems>
+</SideNav>
 
 <Content>
   <Grid>
