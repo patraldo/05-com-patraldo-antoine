@@ -1,5 +1,5 @@
 <div class='taller'>
-<p style="font-size:5vw;">Taller abierto: dibujos animados con inteligencia artificial. Gratis, en el espacio del <a href="/exhibiciones">La Musa que Mas Aplauda</a></p> 
+<p style="font-size:5vw;">Taller abierto: dibujos animados con inteligencia artificial. Gratis, en el espacio del <a href="https://antoine.patraldo.com/exhibiciones">La Musa que Mas Aplauda</a></p> 
 </div>
 
 <style>
