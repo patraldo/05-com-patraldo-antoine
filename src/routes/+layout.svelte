@@ -46,7 +46,12 @@ import {
 
 </script>
 
-<Header company="Antoine Patraldo" platformName="La Musa que Mas Aplauda" bind:isSideNavOpen>
+<Header
+persistentHamburgerMenu={true}
+company="Antoine Patraldo" 
+platformName="La Musa que Mas Aplauda" 
+bind:isSideNavOpen
+>
   <svelte:fragment slot="skip-to-content">
     <SkipToContent />
   </svelte:fragment>
@@ -101,7 +106,9 @@ import {
   </Grid>
 </Content>
 {#if active}
-<Confetti />
+<Confetti noGravity x={[-1, 1]} y={[-1, 1]} delay={[0, 50]} duration=1000 colorRange={[0, 120]} />
+<Confetti noGravity x={[-1, 1]} y={[-1, 1]} delay={[550, 550]} duration=1000 colorRange={[120, 240]} />
+<Confetti noGravity x={[-1, 1]} y={[-1, 1]} delay={[1000, 1050]} duration=1000 colorRange={[240, 360]} />
 {/if}
 
 
@@ -116,6 +123,7 @@ justify-content: center;
 overflow: hidden;
 pointer-events: none;">
 <Confetti x={[-5, 5]} y={[0, 0.1]} delay={[500, 2000]} infinite duration=5000 amount=200 fallDistance="100vh" />
+
 </div>
 
 
