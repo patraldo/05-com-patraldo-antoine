@@ -58,15 +58,15 @@ bind:isSideNavOpen
   <HeaderNav>
     <HeaderNavItem href="/" text="Inicio" />
     <HeaderNavMenu text="Menu">
-      <HeaderNavItem href="/dibujos" data-sveltekit-preload-data text="Dibujos" />
+      <HeaderNavItem href="/dibujos"  text="Dibujos" />
       <HeaderNavItem href="/exhibiciones" text="Exhibiciones" />
-      <HeaderNavItem href="/animaciones" data-sveltekit-preload-data text="Animaciones" />
-      <HeaderNavItem href="/videos" data-sveltekit-preload-data text="Videos" />
+      <HeaderNavItem href="/animaciones"  text="Animaciones" />
+      <HeaderNavItem href="/videos"  text="Videos" />
       <HeaderNavItem href="/blog" text="Blog" />
-      <HeaderNavItem href="/proyecciones" data-sveltekit-preload-data text="Proyecciones" />
-      <HeaderNavItem href="/talleres" data-sveltekit-preload-data text="Talleres" />
-      <HeaderNavItem href="/contacto" data-sveltekit-preload-data text="Contacto" />
-      <HeaderNavItem href="/ubicacion" data-sveltekit-preload-data text="Ubicacion" />
+      <HeaderNavItem href="/proyecciones"  text="Proyecciones" />
+      <HeaderNavItem href="/talleres"  text="Talleres" />
+      <HeaderNavItem href="/contacto"  text="Contacto" />
+      <HeaderNavItem href="/ubicacion"  text="Ubicacion" />
 
     </HeaderNavMenu>
   </HeaderNav>
@@ -74,17 +74,17 @@ bind:isSideNavOpen
 
 <SideNav bind:isOpen={isSideNavOpen}>
   <SideNavItems>
-    <SideNavLink href="/" data-sveltekit-preload-data text="Inicio" />
+    <SideNavLink href="/"  text="Inicio" />
     <SideNavMenu text="Menu">
-      <SideNavMenuItem href="/dibujos" data-sveltekit-preload-data text="Dibujos" />
+      <SideNavMenuItem href="/dibujos"  text="Dibujos" />
       <SideNavMenuItem href="/exhibiciones" text="Exhibiciones" />
-      <SideNavMenuItem href="/animaciones" data-sveltekit-preload-data text="Animaciones" />
-      <SideNavMenuItem href="/videos" data-sveltekit-preload-data text="Videos" />
+      <SideNavMenuItem href="/animaciones"  text="Animaciones" />
+      <SideNavMenuItem href="/videos"  text="Videos" />
       <SideNavMenuItem href="/blog" text="Blog" />
-      <SideNavMenuItem href="/proyecciones" data-sveltekit-preload-data text="Proyecciones" />
-      <SideNavMenuItem href="/talleres" data-sveltekit-preload-data text="Talleres" />
-      <SideNavMenuItem href="/contacto" data-sveltekit-preload-data text="Contacto" />
-      <SideNavMenuItem href="/ubicacion" data-sveltekit-preload-data text="Ubicacion" />
+      <SideNavMenuItem href="/proyecciones"  text="Proyecciones" />
+      <SideNavMenuItem href="/talleres"  text="Talleres" />
+      <SideNavMenuItem href="/contacto"  text="Contacto" />
+      <SideNavMenuItem href="/ubicacion"  text="Ubicacion" />
 </SideNavMenu>
     <SideNavDivider />
     <SideNavLink href="/exhibiciones"  text="Proxima Exhibicion" />
