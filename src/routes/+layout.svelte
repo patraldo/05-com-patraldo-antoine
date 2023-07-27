@@ -99,7 +99,6 @@ bind:isSideNavOpen
     <Row>
       <Column>
         <h1 style="font-size:10vw; font-family:'Special Elite'">{path.toUpperCase().replace("/","")}</h1>
-<button on:click={showConfetti}>¡Confetti!</button>
 <Confetti />
     </Column>
     </Row>
