@@ -82,7 +82,7 @@ import {
       <SideNavMenuItem href="/ubicacion" data-sveltekit-preload-data text="Ubicacion" />
 </SideNavMenu>
     <SideNavDivider />
-    <SideNavLink text="Link 4" />
+    <SideNavLink href="/exhibiciones"  text="Proxima Exhibicion" />
   </SideNavItems>
 </SideNav>
 
@@ -93,7 +93,7 @@ import {
   <Grid>
     <Row>
       <Column>
-        <h1 style="font-size:10vw; font-family:'Special Elite'">{path.toUpperCase()}</h1>
+        <h1 style="font-size:10vw; font-family:'Special Elite'">{path.toUpperCase().replace("/","")}</h1>
 <button on:click={showConfetti}>¡Confetti!</button>
 <Confetti />
     </Column>
