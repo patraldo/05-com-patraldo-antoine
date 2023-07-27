@@ -69,7 +69,7 @@ import {
 
 <SideNav bind:isOpen={isSideNavOpen}>
   <SideNavItems>
-    <SideNavLink text="Inicio" />
+    <SideNavLink href="/" data-sveltekit-preload-data text="Inicio" />
     <SideNavMenu text="Menu">
       <SideNavMenuItem href="/dibujos" data-sveltekit-preload-data text="Dibujos" />
       <SideNavMenuItem href="/exhibiciones" text="Exhibiciones" />
