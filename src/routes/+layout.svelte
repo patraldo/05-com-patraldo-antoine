@@ -98,7 +98,7 @@ bind:isSideNavOpen
   <Grid>
     <Row>
       <Column>
-        <h1 style="font-size:10vw; text-align: center; font-family:'Special Elite'">{path.toUpperCase().replace("/","")}</h1>
+        <h1 style="font-size:10vw; font-family:'Special Elite'; text-align: center;">{path.toUpperCase().replace("/","")}</h1>
 <Confetti colorArray={["url(https://storage.googleapis.com/patraldo/antoine-dibujos/PXL_20220706_201136055.webp)"]} />
     </Column>
     </Row>
@@ -109,7 +109,6 @@ bind:isSideNavOpen
 <Confetti noGravity x={[-1, 1]} y={[-1, 1]} delay={[550, 550]} duration=1000 colorRange={[120, 240]} />
 <Confetti noGravity x={[-1, 1]} y={[-1, 1]} delay={[1000, 1050]} duration=1000 colorRange={[240, 360]} />
 {/if}
-
 
 <div style="
 position: fixed;
@@ -122,6 +121,8 @@ justify-content: center;
 overflow: hidden;
 pointer-events: none;">
 <Confetti x={[-5, 5]} y={[0, 0.1]} delay={[500, 2000]} infinite duration=5000 amount=200 fallDistance="100vh" colorArray={["url(https://storage.googleapis.com/patraldo/antoine-dibujos/300x300-202210O28-01webp/PXL_20221028_162614223.webp)"]} />
+
+
 
 </div>
 
