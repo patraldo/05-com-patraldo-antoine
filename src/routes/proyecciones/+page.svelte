@@ -30,6 +30,7 @@ padding: 0 4px;
 }
 
 .column img {
+  aspect-ratio: 1/1;
 	margin-top: 8px;
 	vertical-align: middle;
 width: 100%;
