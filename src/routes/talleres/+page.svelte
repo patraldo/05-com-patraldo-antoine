@@ -48,7 +48,6 @@ padding: 0 4px;
 }
 
 .column img {
-  aspect-ratio: 2/1;
 
 	margin-top: 8px;
 	vertical-align: middle;
