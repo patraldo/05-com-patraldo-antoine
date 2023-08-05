@@ -98,7 +98,7 @@ bind:isSideNavOpen
   <Grid>
     <Row>
       <Column>
-        <h1 style="font-size:10vw; font-family:'Special Elite'; text-align: center; color: #787b71;">{path.toUpperCase().replace("/","")}</h1>
+        <h1 style="font-size:10vw; font-family:'Special Elite'; text-align: center; color: #9e5994;">{path.toUpperCase().replace("/","")}</h1>
 <Confetti colorArray={["url(https://storage.googleapis.com/patraldo/antoine-dibujos/PXL_20220706_201136055.webp)"]} />
     </Column>
     </Row>
