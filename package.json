@@ -9,7 +9,7 @@
   },
   "devDependencies": {
     "@sveltejs/adapter-cloudflare": "^2.3.0",
-    "@sveltejs/kit": "^1.15.8",
+    "@sveltejs/kit": "^1.20.4",
     "autoprefixer": "^10.4.7",
     "carbon-components-svelte": "^0.79.0",
     "carbon-icons-svelte": "^12.1.0",
@@ -17,7 +17,7 @@
     "carbon-preprocess-svelte": "^0.10.0",
     "postcss": "^8.4.14",
     "postcss-load-config": "^4.0.1",
-    "svelte": "^3.54.0",
+    "svelte": "^4.0.0",
     "svelte-confetti": "^1.2.4",
     "svelte-hamburgers": "^4.0.2",
     "sveltekit-embed": "^0.0.12",
