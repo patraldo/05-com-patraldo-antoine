@@ -18,13 +18,13 @@
 </div>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Marmelad&family=Pacifico&family=Special+Elite&family=Tangerine:wght@400;700&family=Ultra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Pacifico&family=Special+Elite&family=Tangerine:wght@400;700&family=Ultra&display=swap');
 
 .bienvenido {
 border: 10px dotted black;
  background: #827179;
  background-clip: padding-box;
-font-family: 'Special Elite';
+font-family: 'Bungee Spice';
 margin: 10px;
 padding: 10px;
 text-align: center;
