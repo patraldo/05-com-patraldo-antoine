@@ -1,7 +1,7 @@
 <script>
     import { Body } from 'svelte-body';
     const style = {
-        backgroundColor: 'light-grey',
+        backgroundColor: 'grey',
         color: 'white',
         '--cool-css-prop': '😎'
     };
