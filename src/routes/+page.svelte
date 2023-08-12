@@ -1,7 +1,7 @@
 <script>
     import { Body } from 'svelte-body';
     const style = {
-        backgroundColor: '#ddd396',
+        backgroundColor: 'light-grey',
         color: 'white',
         '--cool-css-prop': '😎'
     };
@@ -18,10 +18,10 @@
 <!-- <p style="font-size:5vw;">{path}Acerca de ANTOINEX</p> -->
 
 <div class='bienvenido'> 
-  <h1 style="font-size:7vw">Bienvenid@ a mi galería en linea:</h1>
+  <h1 style="font-size:9vw">Bienvenid@ a mi galería en linea:</h1>
 </div>
 <div class='musx'> 
-  <h1 style="font-size:8vw">La Musa que Más Aplauda</h1>
+  <h1 style="font-size:11vw">La Musa que Más Aplauda</h1>
 </div>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Pacifico&family=Special+Elite&family=Tangerine:wght@400;700&family=Ultra&display=swap');
