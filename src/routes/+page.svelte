@@ -17,9 +17,11 @@
 
 <!-- <p style="font-size:5vw;">{path}Acerca de ANTOINEX</p> -->
 
-<div class='bienvenido'> 
+<!-- <div class='bienvenido'> 
   <h1 style="font-size:9vw">Bienvenid@ a mi galería en linea:</h1>
 </div>
+-->
+
 <div class='musx'> 
   <h1 style="font-size:11vw">La Musa que Más Aplauda</h1>
 </div>
@@ -31,7 +33,7 @@
       base-palette: 0;
 /*    override-colors: 1 hotpink, 2 cyan, 2 white; */
 /*    override-colors: 0 #00ffbb, 1 #007744; */
-      override-colors: 0 DarkRed, 1 RedOrange;
+      override-colors: 0 DarkRed, 1 Red;
 
 }
 .bienvenido {
