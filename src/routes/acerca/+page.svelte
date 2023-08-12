@@ -1,5 +1,5 @@
 <div class='acerca'>
-<p style="font-size:5vw;">Mi nombre artístico es Antoine Patraldo. Soy Mexicano de nacimiento y Canadiense por naturalización. Descubrí hace un rato el placer de dibujar y pintar. Me permite descubrir lo que tengo en mi imaginación. Poco a poco voy explorando la magia de animación, proyecciónes, murales y todo tipo de maneras de incorporar mi arte en la vida cotidiana.</p>
+<p style="font-size:5vw;">Mi nombre artístico es Antoine Patraldo. Soy Mexicano de nacimiento y Canadiense por naturalización. Descubrí hace un rato el placer de dibujar y pintar. Me permite ver lo que tengo en mi imaginación. Poco a poco voy explorando la magia de animación, proyecciónes, murales y todo tipo de maneras de incorporar mi arte en la vida cotidiana.</p>
 </div>
 
 
