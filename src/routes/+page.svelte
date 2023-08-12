@@ -10,10 +10,10 @@
 <!-- <p style="font-size:5vw;">{path}Acerca de ANTOINEX</p> -->
 
 <div class='bienvenido'> 
-  <h1 style="font-size: clamp(3rem, 15vmin, 8rem)">Bienvenid@ a mi galería en linea:</h1>
+  <h1 style="font-size:7vw">Bienvenid@ a mi galería en linea:</h1>
 </div>
 <div class='musx'> 
-  <h1 style="font-size: clamp(3rem, 15vmin, 8rem)">La Musa que Más Aplauda</h1>
+  <h1 style="font-size:8vw">La Musa que Más Aplauda</h1>
 </div>
 <div class='desc'>
   <p style="font-size:5vw;">Dibujar es un placer. Me permite descubrir lo que tengo en mi imaginación. Me gusta expresarme de esta manera. Poco a poco voy descubriendo la magia de animación, proyecciónes, murales y todo tipo de maneras de incorporar mis dibujos en la vida cotidiana.</p>
