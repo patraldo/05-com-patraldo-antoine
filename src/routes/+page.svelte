@@ -1,7 +1,7 @@
 <script>
     import { Body } from 'svelte-body';
     const style = {
-        backgroundColor: '#bcbcbc',
+        backgroundColor: '#87af87',
         color: 'white',
         '--cool-css-prop': '😎'
     };
@@ -31,7 +31,7 @@
       base-palette: 0;
 /*    override-colors: 1 hotpink, 2 cyan, 2 white; */
 /*    override-colors: 0 #00ffbb, 1 #007744; */
-      override-colors: 0 DarkRed, 1 Red;
+      override-colors: 0 DarkRed, 1 RedOrange;
 
 }
 .bienvenido {
