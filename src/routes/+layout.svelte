@@ -58,6 +58,7 @@ bind:isSideNavOpen
   <HeaderNav>
     <HeaderNavItem href="/" text="Inicio" />
     <HeaderNavMenu text="Menu">
+      <HeaderNavItem href="/acerca"  text="Acerca" />
       <HeaderNavItem href="/dibujos"  text="Dibujos" />
       <HeaderNavItem href="/exhibiciones" text="Exhibiciones" />
       <HeaderNavItem href="/animaciones"  text="Animaciones" />
@@ -76,6 +77,7 @@ bind:isSideNavOpen
   <SideNavItems>
     <SideNavLink href="/"  text="Inicio" />
     <SideNavMenu text="Menu">
+      <SideNavMenuItem href="/acerca"  text="Acerca" />
       <SideNavMenuItem href="/dibujos"  text="Dibujos" />
       <SideNavMenuItem href="/exhibiciones" text="Exhibiciones" />
       <SideNavMenuItem href="/animaciones"  text="Animaciones" />

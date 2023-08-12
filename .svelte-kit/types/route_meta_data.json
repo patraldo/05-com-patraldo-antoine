@@ -1,5 +1,6 @@
 {
 	"/": [],
+	"/acerca": [],
 	"/animaciones": [],
 	"/blog": [
 		"src/routes/blog/+layout.server.js",
