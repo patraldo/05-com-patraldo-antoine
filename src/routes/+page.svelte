@@ -1,5 +1,10 @@
 <script>
-
+    import { Body } from 'svelte-body';
+    const style = {
+        backgroundColor: '#ddd396',
+        color: 'white',
+        '--cool-css-prop': '😎'
+    };
 
     import { page } from '$app/stores';
     let path;
@@ -7,6 +12,9 @@
     $: path = $page.url.pathname;
 
 </script>
+
+<Body {style} />
+
 <!-- <p style="font-size:5vw;">{path}Acerca de ANTOINEX</p> -->
 
 <div class='bienvenido'> 
@@ -33,7 +41,7 @@
 .bienvenido {
 /*border: 10px dotted black;*/
 /* background: #827179; */
-background: #ddd392;
+/* background: #ddd392; */
  background-clip: padding-box;
 font-family: 'Bungee Spice';
 font-palette: --colorized;
@@ -53,8 +61,8 @@ color: white;
 .musx {
   --bg-size: 400%;
   --color-one: hsl(15 90% 55%);
-  --color-two: hsl(40 95% 55%);
-  border: 10px dotted black;
+  --color-two: hsl(50 55% 15%);
+/*  border: 10px dotted black; */
   background-clip: padding-box;
 font-family: 'Special Elite';
 margin: 10px;
@@ -86,7 +94,7 @@ color: black;
 }
 
 .desc {
-border: 10px dotted black;
+/* border: 10px dotted black; */
 /* background: #6c8ea9; */
 background: #ddd392;
  background-clip: padding-box;
