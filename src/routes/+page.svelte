@@ -31,7 +31,7 @@
 
 }
 .bienvenido {
-border: 10px dotted black;
+/*border: 10px dotted black;*/
 /* background: #827179; */
 background: #ddd392;
  background-clip: padding-box;
