@@ -1,7 +1,6 @@
 <script>
     import { Body } from 'svelte-body';
     const style = {
-        backgroundColor: '#87af87',
         color: 'white',
         '--cool-css-prop': '😎'
     };
@@ -12,6 +11,7 @@
     $: path = $page.url.pathname;
 
 </script>
+
 
 <Body {style} />
 
@@ -33,20 +33,8 @@
       base-palette: 0;
 /*    override-colors: 1 hotpink, 2 cyan, 2 white; */
 /*    override-colors: 0 #00ffbb, 1 #007744; */
-      override-colors: 0 DarkRed, 1 Red;
+      override-colors: 0 DarkGreen, 1 Blue;
 
-}
-.bienvenido {
-/*border: 10px dotted black;*/
-/* background: #827179; */
-/* background: #ddd392; */
- background-clip: padding-box;
-font-family: 'Bungee Spice';
-font-palette: --colorized;
-margin: 10px;
-padding: 10px;
-text-align: center;
-color: white;
 }
 
 @keyframes move-bg {
@@ -66,7 +54,8 @@ font-family: 'Special Elite';
 margin: 10px;
 padding: 10px;
 text-align: center;
-background: #ddd392;
+/*background: #ddd392;*/
+
 background: linear-gradient(
                 90deg,
                 var(--color-one),
@@ -78,19 +67,6 @@ background: linear-gradient(
   background-clip: text;
   animation: move-bg 8s infinite linear;
 }
-
-.musa {
-border: 10px dotted black;
-background: #ddd392;
-background-clip: padding-box;
-font-family: 'Special Elite';
-font-palette: --colorized;
-margin: 10px;
-padding: 10px;
-text-align: center;
-color: black;
-}
-
 
 
 </style>
