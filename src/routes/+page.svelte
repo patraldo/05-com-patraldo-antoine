@@ -31,8 +31,8 @@
 /* https://web.dev/speedy-css-tip-animated-gradient-text/ */
 .musx {
   --bg-size: 400%;
-  --color-one: hsl(5 10% 35%);
-  --color-two: hsl(90 95% 35%);
+  --color-one: hsl(7 85% 43%);
+  --color-two: hsl(50 95% 73%);
   background-clip: padding-box;
 font-family: 'Special Elite';
 margin: 10px;
