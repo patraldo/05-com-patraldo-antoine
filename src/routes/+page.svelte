@@ -33,6 +33,7 @@
   --bg-size: 400%;
   --color-one: hsl(7 85% 43%);
   --color-two: hsl(50 95% 73%);
+  --color-three: hsl(318 94% 7%);
   background-clip: padding-box;
 font-family: 'Special Elite';
 margin: 10px;
@@ -43,7 +44,7 @@ background: linear-gradient(
                 90deg,
                 var(--color-one),
                 var(--color-two),
-                var(--color-one)
+                var(--color-three)
               ) 0 0 / var(--bg-size) 100%;
   color: transparent;
   -webkit-background-clip: text;
