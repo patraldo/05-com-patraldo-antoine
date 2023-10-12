@@ -3,15 +3,17 @@ import { render } from 'svelte-email';
 import Hello from '$lib/emails/Hello.svelte';
 import nodemailer from 'nodemailer';
 
-const transporter = nodemailer.createTransport({
-	host: 'smtp.mailgun.org',
-	port: 587,
-	secure: true,
-	auth: {
-		user: 'postmaster@patraldo.com	',
-		pass: 'b81d51f6430a76ba2c6206731de88c1d-5465e583-6a77b837'
-	}
-});
+const nodemailer = require('nodemailer');
+const mg = require('nodemailer-mailgun-transport');
+
+const auth = {
+  auth: {
+    api_key: '9b138c2123c1641cbdca4b54a2d2f826-5465e583-6f104a10',
+    domain: 'https://patraldo.com'
+  }
+}
+
+const nodemailerMailgun = nodemailer.createTransport(mg(auth));
 
 const emailHtml = render({
 	template: Hello,
