@@ -5,7 +5,7 @@
 /// <reference types="@sveltejs/kit" />
 
 /**
- * Environment variables [loaded by Vite](https://vitejs.dev/guide/env-and-mode.html#env-files) from `.env` files and `process.env`. Like [`$env/dynamic/private`](https://kit.svelte.dev/docs/modules#$env-dynamic-private), this module cannot be imported into client-side code. This module only includes variables that _do not_ begin with [`config.kit.env.publicPrefix`](https://kit.svelte.dev/docs/configuration#env).
+ * Environment variables [loaded by Vite](https://vitejs.dev/guide/env-and-mode.html#env-files) from `.env` files and `process.env`. Like [`$env/dynamic/private`](https://kit.svelte.dev/docs/modules#$env-dynamic-private), this module cannot be imported into client-side code. This module only includes variables that _do not_ begin with [`config.kit.env.publicPrefix`](https://kit.svelte.dev/docs/configuration#env) _and do_ start with [`config.kit.env.privatePrefix`](https://kit.svelte.dev/docs/configuration#env) (if configured).
  * 
  * _Unlike_ [`$env/dynamic/private`](https://kit.svelte.dev/docs/modules#$env-dynamic-private), the values exported from this module are statically injected into your bundle at build time, enabling optimisations like dead code elimination.
  * 
@@ -41,12 +41,11 @@ declare module '$env/static/private' {
 	export const MANAGERPID: string;
 	export const npm_config_userconfig: string;
 	export const npm_config_local_prefix: string;
-	export const SYSTEMD_EXEC_PID: string;
 	export const DBUS_SESSION_BUS_ADDRESS: string;
 	export const COLOR: string;
-	export const npm_config_metrics_registry: string;
 	export const QT_QPA_PLATFORMTHEME: string;
 	export const WAYLAND_DISPLAY: string;
+	export const GTK_IM_MODULE: string;
 	export const LOGNAME: string;
 	export const WAYLAND_DISPLAY_LOW_DENSITY: string;
 	export const SOMMELIER_DRM_DEVICE: string;
@@ -86,7 +85,6 @@ declare module '$env/static/private' {
 	export const XDG_DATA_DIRS: string;
 	export const npm_config_global_prefix: string;
 	export const npm_command: string;
-	export const PNPM_HOME: string;
 	export const INIT_CWD: string;
 	export const EDITOR: string;
 	export const NODE_ENV: string;
@@ -106,7 +104,7 @@ declare module '$env/static/public' {
 }
 
 /**
- * This module provides access to runtime environment variables, as defined by the platform you're running on. For example if you're using [`adapter-node`](https://github.com/sveltejs/kit/tree/master/packages/adapter-node) (or running [`vite preview`](https://kit.svelte.dev/docs/cli)), this is equivalent to `process.env`. This module only includes variables that _do not_ begin with [`config.kit.env.publicPrefix`](https://kit.svelte.dev/docs/configuration#env).
+ * This module provides access to runtime environment variables, as defined by the platform you're running on. For example if you're using [`adapter-node`](https://github.com/sveltejs/kit/tree/master/packages/adapter-node) (or running [`vite preview`](https://kit.svelte.dev/docs/cli)), this is equivalent to `process.env`. This module only includes variables that _do not_ begin with [`config.kit.env.publicPrefix`](https://kit.svelte.dev/docs/configuration#env) _and do_ start with [`config.kit.env.privatePrefix`](https://kit.svelte.dev/docs/configuration#env) (if configured).
  * 
  * This module cannot be imported into client-side code.
  * 
@@ -134,12 +132,11 @@ declare module '$env/dynamic/private' {
 		MANAGERPID: string;
 		npm_config_userconfig: string;
 		npm_config_local_prefix: string;
-		SYSTEMD_EXEC_PID: string;
 		DBUS_SESSION_BUS_ADDRESS: string;
 		COLOR: string;
-		npm_config_metrics_registry: string;
 		QT_QPA_PLATFORMTHEME: string;
 		WAYLAND_DISPLAY: string;
+		GTK_IM_MODULE: string;
 		LOGNAME: string;
 		WAYLAND_DISPLAY_LOW_DENSITY: string;
 		SOMMELIER_DRM_DEVICE: string;
@@ -179,12 +176,11 @@ declare module '$env/dynamic/private' {
 		XDG_DATA_DIRS: string;
 		npm_config_global_prefix: string;
 		npm_command: string;
-		PNPM_HOME: string;
 		INIT_CWD: string;
 		EDITOR: string;
 		NODE_ENV: string;
 		[key: `PUBLIC_${string}`]: undefined;
-		[key: string]: string | undefined;
+		[key: `${string}`]: string | undefined;
 	}
 }
 
