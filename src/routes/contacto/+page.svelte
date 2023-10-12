@@ -9,12 +9,14 @@
 
 <style>
 
+
+
+@import url('https://fonts.googleapis.com/css2?family=Marmelad&family=Pacifico&family=Special+Elite&family=Tangerine:wght@400;700&family=Ultra&display=swap');
+
 iframe {
 width: 100%;
 aspect-ration: 16/9;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Marmelad&family=Pacifico&family=Special+Elite&family=Tangerine:wght@400;700&family=Ultra&display=swap');
 
 a, a:hover, a:active, a:visited, a:focus {
 color: black;
