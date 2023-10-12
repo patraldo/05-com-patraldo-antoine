@@ -1,6 +1,5 @@
 import { json } from '@sveltejs/kit';
 import { render } from 'svelte-email';
-import Hello from '$lib/emails/Hello.svelte';
 import nodemailer from 'nodemailer';
 
 const transporter = nodemailer.createTransport({
