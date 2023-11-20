@@ -13,9 +13,6 @@
 	],
 	"/contacto": [],
 	"/dibujos": [],
-	"/emails/hello": [
-		"src/routes/emails/hello/+server.ts"
-	],
 	"/exhibiciones": [],
 	"/gridGallery": [],
 	"/proyecciones": [],

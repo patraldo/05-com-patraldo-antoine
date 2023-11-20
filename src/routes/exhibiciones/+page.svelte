@@ -8,7 +8,7 @@
 <!-- <p style="font-size:5vw;">{path}Exhibiciones</p> -->
 
 <div class='desc'>
-  <p style="font-size:5vw;">Estamos preparando la exhibición inaugural de "Tray Chic". Ponemos que será en Octubre de 2023 en el lugar del difunto restaurante ¡Pinche Poutine! Más detalles próximamente.</p>
+  <p style="font-size:5vw;">Estamos preparando la exhibición inaugural de "Tray Chic". Ponemos que será en el año de 2024 en el mismo lugar del difunto restaurante ¡Pinche Poutine! Más detalles próximamente.</p>
 </div>
 
 <style>
