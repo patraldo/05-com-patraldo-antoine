@@ -8,7 +8,7 @@
 <!-- <p style="font-size:5vw;">{path}Exhibiciones</p> -->
 
 <div class='desc'>
-  <p style="font-size:5vw;">Estamos preparando la exhibición inaugural de La Musa que Más Aplauda: "Tray Chic". Será en el año de 2024 en el mismo lugar del difunto restaurante ¡Pinche Poutine! Más detalles próximamente.</p>
+  <p style="font-size:5vw;">La exhibición inaugural de La Musa que Más Aplauda: "Tray Chic" tendrá lugar en el año de 2024 en el mismo lugar del difunto restaurante ¡Pinche Poutine! Más detalles próximamente.</p>
 </div>
 
 <style>
