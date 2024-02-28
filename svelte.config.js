@@ -1,4 +1,4 @@
-import adapter from '@chientrm/adapter-cloudflare';
+import adapter from '@sveltejs/adapter-cloudflare';
 import sveltePreprocess from "svelte-preprocess";
 import { optimizeImports } from "carbon-preprocess-svelte";
 
