@@ -27,7 +27,6 @@
   },
   "type": "module",
   "dependencies": {
-    "@chientrm/adapter-cloudflare": "^2.3.4",
     "@material/web": "^1.0.0-pre.11",
     "hamburgers": "^1.2.1",
     "latest-version": "^7.0.0",
